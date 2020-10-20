@@ -160,7 +160,8 @@ section > .banner > .start-proyect a {
   justify-content: center;
   width: 90%;
   margin: auto;
-  margin-bottom: 200px;
+  margin-bottom: 100px;
+  margin-top: 80px;
 }
 
 .que_es > .left-section {
@@ -170,6 +171,9 @@ section > .banner > .start-proyect a {
   width: 80%;
 }
 
+.que_es > .left-section > .title-innova-zero > h1 {
+  font-size: 40px;
+}
 .que_es > .right-section {
   display: flex;
   flex-direction: column;
