@@ -242,3 +242,101 @@ section > .banner > .start-proyect a {
 }
 
 /* picture and text end */
+
+/* como funciona start */
+
+.como-funciona {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  margin: auto;
+}
+
+.como-funciona > .como-funciona-text {
+  margin: auto;
+  justify-content: center;
+  text-align: center;
+  width: 50%;
+}
+
+.como-funciona > .mini-images {
+  width: 60%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: auto;
+}
+.como-funciona > .mini-images > .picture-mini-image {
+  margin: 20px;
+}
+.como-funciona > .mini-images > .picture-mini-image > img {
+  width: 180px;
+  height: auto;
+}
+
+/* como funciona ends */
+
+/* contact us start */
+
+.contact-us {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.contact-us > .left-column {
+  justify-content: center;
+  width: 100%;
+  text-align: center;
+  margin: auto;
+}
+
+.contact-us > .left-column > h4 {
+  font-size: 30px;
+}
+
+.contact-us > .right-column {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  text-align: center;
+  margin: auto;
+}
+
+.contact-us > .right-column > .join-boton {
+  justify-content: center;
+  width: 100px;
+  text-align: center;
+  padding: 5px;
+  border-radius: 4px;
+  border-style: solid;
+  border-width: 1px;
+  background-color: aqua;
+}
+
+.contact-us > .right-column > .contact-boton {
+  justify-content: center;
+  width: 100px;
+  text-align: center;
+  padding: 5px;
+  margin-left: 10px;
+  border-radius: 4px;
+  border-style: solid;
+  border-width: 1px;
+  background-color: coral;
+}
+
+.contact-us > .right-column > .contact-boton > a {
+  text-decoration: none;
+  color: black;
+}
+
+.contact-us > .right-column > .join-boton > a {
+  text-decoration: none;
+  color: black;
+}
+/* contact us ends */
