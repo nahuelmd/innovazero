@@ -22,11 +22,7 @@ select {
   font-family: "Lato", sans-serif;
 }
 
-/* Link bar start  */
-
-/* Link bar ends */
-
-/* Main Section start */
+/* nav menu start */
 
 .nav-menu {
   width: 100%;
@@ -115,6 +111,10 @@ select {
   text-align: center;
 }
 
+/* nav menu ends */
+
+/* section banner Start */
+
 section {
   width: 100%;
 }
@@ -150,12 +150,17 @@ section > .banner > .start-proyect a {
   display: flex;
 }
 
+/* section banner ends */
+
+/* que es section start */
+
 .que_es {
   display: flex;
   flex-direction: row;
   justify-content: center;
   width: 90%;
   margin: auto;
+  margin-bottom: 200px;
 }
 
 .que_es > .left-section {
@@ -174,3 +179,62 @@ section > .banner > .start-proyect a {
 #ocultar {
   visibility: hidden;
 }
+
+#learn-more {
+  border-radius: 4px;
+  border-style: solid;
+  border-width: 1px;
+  color: deepskyblue;
+  width: 100px;
+  padding: 5px;
+  text-align: center;
+}
+
+#learn-more > a {
+  text-decoration: none;
+  margin: auto;
+  color: deepskyblue;
+}
+
+/* que es section ends */
+
+/* picture and text start */
+
+.picture-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 300px;
+  margin: auto;
+}
+.picture-text-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.picture-text > .picture-text-container > .picture-text-image {
+  width: 100%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  padding: 50px;
+}
+
+.picture-text > .picture-text-container > .picture-text-image > img {
+  width: 100%;
+  height: auto;
+  margin: auto;
+}
+
+.picture-text > .picture-text-container > .picture-text-text {
+  width: 100%;
+  margin: auto;
+  color: black;
+  text-align: left;
+  justify-content: center;
+  padding: 85px;
+}
+
+/* picture and text end */
